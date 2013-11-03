@@ -1,0 +1,14 @@
+--- autoconf-archive-2013.11.01/doc/autoconf-archive.texi.orig	2013-11-01 00:00:00.000000000 +0100
++++ autoconf-archive-2013.11.01/doc/autoconf-archive.texi	2013-11-03 09:03:44.059884229 +0100
+@@ -24,9 +24,9 @@
+ Documentation License''.
+ @end copying
+ 
+-@dircategory Software development
++@dircategory Development tools:
+ @direntry
+-* Autoconf Archive: (autoconf-archive). A collection of re-usable Autoconf macros.
++* Autoconf Archive: (autoconf-archive).	A collection of re-usable Autoconf macros
+ @end direntry
+ 
+ @titlepage
