@@ -1,12 +1,12 @@
 Summary:	The Autoconf Macro Archive
 Summary(pl.UTF-8):	Archiwum makr Autoconfa
 Name:		autoconf-archive
-Version:	2014.02.28
+Version:	2015.02.04
 Release:	1
 License:	GPL v3+ with exceptions
 Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
-# Source0-md5:	c75812c827654c2ca015c8995b17c8cb
+# Source0-md5:	c572eef518493b283cdc776f91804e76
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/autoconf-archive/
 BuildRequires:	tar >= 1:1.22
@@ -18,12 +18,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The GNU Autoconf Archive is a collection of more than 450 macros for
+The GNU Autoconf Archive is a collection of more than 500 macros for
 GNU Autoconf that have been contributed as free software by friendly
 supporters of the cause from all over the Internet.
 
 %description -l pl.UTF-8
-GNU Autoconf Archive to zbiór ponad 450 makr dla GNU Autoconfa,
+GNU Autoconf Archive to zbiór ponad 500 makr dla GNU Autoconfa,
 przekazanych jako oprogramowanie wolnodostępne przez przyjaznych
 przypadkowych wspierających z całego Internetu.
 
