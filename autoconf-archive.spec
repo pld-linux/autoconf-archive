@@ -1,19 +1,19 @@
 Summary:	The Autoconf Macro Archive
 Summary(pl.UTF-8):	Archiwum makr Autoconfa
 Name:		autoconf-archive
-Version:	2015.02.24
+Version:	2015.09.25
 Release:	1
 License:	GPL v3+ with exceptions
 Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
-# Source0-md5:	686ece8b7db6897d9bb9db1723e419b4
+# Source0-md5:	23c2a68fe323d30eaf0fbfa790b4dc92
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/autoconf-archive/
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	texinfo
 BuildRequires:	xz
 # max of AC_PREREQ from ax_*.m4
-Requires:	autoconf >= 2.62
+Requires:	autoconf >= 2.69
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
