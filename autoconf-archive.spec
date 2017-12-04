@@ -1,12 +1,12 @@
 Summary:	The Autoconf Macro Archive
 Summary(pl.UTF-8):	Archiwum makr Autoconfa
 Name:		autoconf-archive
-Version:	2017.03.21
+Version:	2017.09.28
 Release:	1
 License:	GPL v3+ with exceptions
 Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
-# Source0-md5:	39549f8b3f34d2c910c92e58912e1a64
+# Source0-md5:	1bfea2828cf204d46dcc748cce79ae4b
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/autoconf-archive/
 BuildRequires:	tar >= 1:1.22
