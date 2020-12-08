@@ -5,7 +5,7 @@
  @end copying
  
 -@dircategory Software development
-+@dircategory Development tools:
++@dircategory Programming tools:
  @direntry
 -* Autoconf Archive: (autoconf-archive). A collection of re-usable Autoconf macros.
 +* Autoconf Archive: (autoconf-archive).	A collection of re-usable Autoconf macros
