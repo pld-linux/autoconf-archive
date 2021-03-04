@@ -1,12 +1,12 @@
 Summary:	The Autoconf Macro Archive
 Summary(pl.UTF-8):	Archiwum makr Autoconfa
 Name:		autoconf-archive
-Version:	2019.01.06
-Release:	2
+Version:	2021.02.19
+Release:	1
 License:	GPL v3+ with exceptions
 Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
-# Source0-md5:	d46413c8b00a125b1529bae385bbec55
+# Source0-md5:	4f06adfbe3f1a2dada06066cf460e5ab
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/autoconf-archive/
 BuildRequires:	tar >= 1:1.22
@@ -37,6 +37,7 @@ przypadkowych wspierających z całego Internetu.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	INSTALL="install -p" \
 	DESTDIR=$RPM_BUILD_ROOT
