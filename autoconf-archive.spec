@@ -1,14 +1,13 @@
 Summary:	The Autoconf Macro Archive
 Summary(pl.UTF-8):	Archiwum makr Autoconfa
 Name:		autoconf-archive
-Version:	2022.02.11
-Release:	2
+Version:	2022.09.03
+Release:	1
 License:	GPL v3+ with exceptions
 Group:		Development/Tools
 Source0:	http://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
-# Source0-md5:	d140e95be64f0aa7369f82e3caae4730
+# Source0-md5:	7f80979c121ecbe119ebf98f42ad198f
 Patch0:		%{name}-info.patch
-Patch1:		python-3.10.patch
 URL:		http://www.gnu.org/software/autoconf-archive/
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	texinfo
@@ -31,7 +30,6 @@ przypadkowych wspierających z całego Internetu.
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
 
 %build
 %configure
