@@ -9,6 +9,7 @@ Source0:	http://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
 # Source0-md5:	1a9ee97d3503d134e16c87c4fa1119cf
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/autoconf-archive/
+BuildRequires:	automake
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	texinfo
 BuildRequires:	xz
