@@ -7,8 +7,8 @@
 -@dircategory Software development
 +@dircategory Programming tools:
  @direntry
--* Autoconf Archive: (autoconf-archive). A collection of re-usable Autoconf macros.
-+* Autoconf Archive: (autoconf-archive).	A collection of re-usable Autoconf macros
+-* Autoconf Archive: (autoconf-archive). A collection of reusable Autoconf macros.
++* Autoconf Archive: (autoconf-archive).	A collection of reusable Autoconf macros
  @end direntry
  
  @titlepage
